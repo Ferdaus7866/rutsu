@@ -402,7 +402,7 @@
 /* Right item styles */
 .item-right {
     flex: 2;
-    padding: 10px;
+    padding: 10px 0px 30px 80px;
 }
 
 .description-right {

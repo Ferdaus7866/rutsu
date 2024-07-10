@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutsu | Home</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Remixicon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-custom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+                <!-- Mobile: Hamburger icon -->
+                <button class="navbar-toggler me-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Mobile: Logo -->
+                <a class="navbar-brand mx-auto mx-lg-0 my-logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                <!-- Desktop: Menu items -->
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-auto nav-colr">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="single.html">Single</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="size.html">Size Guide</a></li>
+                    </ul>
+                </div>
+                <!-- Icons -->
+                <div class="d-flex ion-colr">
+                    <a class="nav-link" href="#"><i class="ri-heart-line"></i></a>
+                    <a class="nav-link" href="#"><i class="ri-search-2-line"></i></a>
+                    <a class="nav-link" href="#"><i class="ri-shopping-cart-2-line"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="mobileMenuLabel"><a href="index.html"><img src="img/logo-dark.png" alt="Logo"></a></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Search box -->
+            <div class="mb-3">
+                <input type="search" class="form-control" placeholder="Search">
+            </div>
+            <!-- Menu items -->
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="single.html">Single</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="size.html">Size Guide</a></li>
+            </ul>
+            <!-- Social icons -->
+            <div class="mt-auto">
+                <a href="#" class="me-3"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="me-3"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" class="me-3"><i class="ri-instagram-line"></i></a>
+                <a href="#" class="me-3"><i class="ri-linkedin-fill"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-title">Grounded in Style</div>
+                <a href="#" class="btn btn-primary hero-button">Explore Our Collection</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Shop Items Samples -->
+    <section class="shop-tems">
+        <div class="container">
+            <div class="row">
+                <!-- First Column for Unisex Shoes -->
+                <div class="col-md-6 col-gap">
+                    <div class="section">
+                        <div class="item">
+                            <img src="img/Shop_Women_2.png" alt="Unisex Shoes">
+                        </div>
+                        <a href="#" class="btn btn-custom">Shop Unisex Shoes</a>
+                    </div>
+                </div>
+
+                <!-- Second Column for Women Sandals -->
+                <div class="col-md-6">
+                    <div class="section">
+                        <div class="item">
+                            <img src="img/sandals.jpg" alt="Women Sandals">
+                        </div>
+                        <a href="#" class="btn btn-custom">Shop Women Sandals</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Message Box Section -->
+    <section class="custom-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column with Title -->
+                <div class="col-md-6">
+                    <div class="title">Engineered for Comfort, <span>Designed for Style</span></div>
+                </div>
+
+                <!-- Right Column with Description and Button -->
+                <div class="col-md-6">
+                    <div class="description">Dedicated guitarists suffering from foot pain from long performances found relief in barefoot shoes, but they lacked stage style. The result is Rutsu, barefoot shoes that combine elegance and stage-ready flair, ensuring every step shines.</div>
+                    <a href="#" class="btn hero-button">Here's Our Story <i class="ri-arrow-right-double-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    Product Section-->
+    <section class="products-section">
+        <div class="container my-4">
+            <h2 class="testimonial-title">Our <span>Favorites for You</span></h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <!-- Product 1 -->
+                <div class="col">
+                    <div class="product-card">
+                        <div id="carouselProduct1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/product-1-a.jpg" class="d-block w-100" alt="Product 1 Color 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/product-1-b.jpg" class="d-block w-100" alt="Product 1 Color 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/product-1-c.jpg" class="d-block w-100" alt="Product 1 Color 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProduct1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-title">Rutsu Original Barefoot Sneakers Low</h5>
+                            <p class="product-price">$74.95</p>
+                            <select class="form-select mb-3">
+                                <option selected>Select Color</option>
+                                <option value="1">White</option>
+                                <option value="2">Green</option>
+                                <option value="3">Beige</option>
+                                <option value="3">Black</option>
+                            </select>
+                            <button class="btn btn-custom buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col">
+                    <div class="product-card">
+                        <div id="carouselProduct2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/product-2-a.jpg" class="d-block w-100" alt="Product 2 Color 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/product-2-b.jpg" class="d-block w-100" alt="Product 2 Color 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/product-2-c.jpg" class="d-block w-100" alt="Product 2 Color 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProduct2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-title">Rutsu Original Barefoot Sneakers High</h5>
+                            <p class="product-price">$79.95</p>
+                            <select class="form-select mb-3">
+                                <option selected>Select Color</option>
+                                <option value="1">White</option>
+                                <option value="2">Green</option>
+                                <option value="3">Beige</option>
+                                <option value="3">Black</option>
+                            </select>
+                            <button class="btn btn-custom buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col">
+                    <div class="product-card">
+                        <div id="carouselProduct3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/product-3-a.jpg" class="d-block w-100" alt="Product 3 Color 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/product-3-b.jpg" class="d-block w-100" alt="Product 3 Color 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/product-3-c.jpg" class="d-block w-100" alt="Product 3 Color 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProduct3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-title">Rutsu Original Barefoot Sneakers Extra-High</h5>
+                            <p class="product-price">$84.95</p>
+                            <select class="form-select mb-3">
+                                <option selected>Select Color</option>
+                                <option value="1">White</option>
+                                <option value="2">Green</option>
+                                <option value="3">Beige</option>
+                                <option value="3">Black</option>
+                            </select>
+                            <button class="btn btn-custom buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col">
+                    <div class="product-card">
+                        <div id="carouselProduct4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/Untitleddesign4-a.jpg" class="d-block w-100" alt="Product 4 Color 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/Untitleddesign4-b.jpg" class="d-block w-100" alt="Product 4 Color 2">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProduct4" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProduct4" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h5 class="product-title">Rutsu Nova Leather Barefoot Sandals Black</h5>
+                            <p class="product-price">$69.95</p>
+                            <select class="form-select mb-3">
+                                <option selected>Select Color</option>
+                                <option value="1">White</option>
+                                <option value="2">Green</option>
+                                <option value="3">Beige</option>
+                                <option value="3">Black</option>
+                            </select>
+                            <button class="btn btn-custom buy-now-btn">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    Testemonial Section-->
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="testimonial-title colr">Hear from Our <span>Happy Customers</span></h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Testimonial 1 -->
+                <div class="col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"This product has changed my life! The quality is top-notch and the customer service is outstanding."</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            ★★★★★
+                        </div>
+                        <div class="testimonial-name">
+                            John Doe
+                        </div>
+                        <div class="testimonial-designation">
+                            CEO, ExampleCorp
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"I am extremely satisfied with my purchase. The team went above and beyond to ensure I was happy."</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            ★★★★☆
+                        </div>
+                        <div class="testimonial-name">
+                            Jane Smith
+                        </div>
+                        <div class="testimonial-designation">
+                            Marketing Manager, TechSolutions
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Fantastic product! I highly recommend it to anyone looking for quality and great support."</p>
+                        </div>
+                        <div class="testimonial-rating">
+                            ★★★★★
+                        </div>
+                        <div class="testimonial-name">
+                            Sarah Brown
+                        </div>
+                        <div class="testimonial-designation">
+                            Freelancer
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Icon Box Section -->
+    <section class="icon-box">
+        <div class="container my-5">
+            <div class="text-center mb-5">
+                <h2 class="icon-sec-title">The Power of <span>Barefoot</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img src="img/icon_1.png" alt="Icon_1">
+                        </div>
+                        <div class="icon-title">Improved Balance</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img src="img/icon_2.png" alt="Icon_1">
+                        </div>
+                        <div class="icon-title">Muscle Strengthening</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img src="img/icon_3.png" alt="Icon_1">
+                        </div>
+                        <div class="icon-title">Sensory Feedback</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="icon-box">
+                        <div class="icon">
+                            <img src="img/icon_4.png" alt="Icon_1">
+                        </div>
+                        <div class="icon-title">Spacious Comfort</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Message Box Section -->
+    <section class="custom-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column with Title -->
+                <div class="col-md-6">
+                    <div class="title">Join the <span>Rutsu Community</span></div>
+                </div>
+
+                <!-- Right Column with Description and Button -->
+                <div class="col-md-6">
+                    <div class="description">Help us develop the next generation of stylish, barefoot shoes. Sign up for exclusive offers, and a chance to influence our design process.</div>
+                    <form class="subscription-form">
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-custom" id="email" placeholder="Enter your email here" required>
+                        </div>
+                        <button type="submit" class="btn subscription-btn w-100">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Image Slider Section-->
+    <section class="slider-items">
+        <div class="items">
+            <div class="item-left">
+                <h2 class="icon-sec-title itm-bdr">The Power of <span>Barefoot</span></h2>
+            </div>
+            <div class="item-right">
+                <div class="description-right">Help us develop the next generation of stylish, barefoot shoes. Sign up for exclusive offers, and a chance to influence our design process.</div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-1.jpg" alt="Slider-1">
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-2.jpg" alt="Slider-1">
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-3.jpg" alt="Slider-1">
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-4.jpg" alt="Slider-1">
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-5.jpg" alt="Slider-1">
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-6.jpg" alt="Slider-1">
+                    </div>
+                </div>
+                <div class="col-1-4">
+                    <div class="items">
+                        <img src="img/slide-7.jpg" alt="Slider-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    Footer Section-->
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <a href="index.html"><img src="img/logo.png" alt="Footer Logo"></a>
+                    <p>The perfect barefoot shoes for everyday wear.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Barefoot Shoes</a></li>
+                        <li><a href="#">Barefoot Sandals</a></li>
+                        <li><a href="size.html">Size Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-item">
+                    <h4>Help &amp; Contact</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="social-icons">
+                    <ul class="list-unstyled d-flex social">
+                        <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                        <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 text-end">
+                <div class="privacy-policy">
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>

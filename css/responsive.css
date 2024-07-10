@@ -1,0 +1,188 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .hero-banner {
+        background-image: url('../img/hero-banner-mobile.png') !important;
+        height: calc(100vh - 83px) !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .hero-banner {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-button {
+        width: 100%;
+    }
+
+    .col-gap {
+        margin-bottom: 50px;
+    }
+
+    .hero-title {
+        font-size: 60px !important;
+        font-weight: 500;
+        text-align: left;
+        line-height: 70px;
+        padding-bottom: 220px;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-section .row {
+        text-align: center;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-left,
+    .item-right {
+        flex: 1;
+        padding: 10px 0;
+    }
+
+    .icon-sec-title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .icon-sec-title {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    /* Responsive adjustments */
+    .slider-items .col-1-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .slider-items .col-1-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Responsive Styles */
+    .row-flex {
+        flex-direction: column;
+    }
+
+    .about-content,
+    .content-image {
+        padding: 10px;
+    }
+
+    .options label {
+        margin-right: 45px !important;
+    }
+
+    .contact-message h1 {
+        font-size: 2em;
+    }
+
+    .contact-message span {
+        font-size: 1em;
+    }
+
+    .contact-message p {
+        font-size: 0.95em;
+    }
+
+    .contact-message h5 {
+        font-size: 1em;
+    }
+
+    .sizechart-section {
+        padding: 0px 0px !important;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .row-special {
+        flex-direction: column;
+    }
+
+    .product-details {
+        padding: 20px;
+    }
+
+    .col-1-2 {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+    .options label img,
+    .options label {
+        max-width: 30px;
+        padding: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-details {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .options label img,
+    .options label {
+        max-width: 80px;
+        padding: 2px;
+    }
+
+    .options label {
+        margin-right: 10px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

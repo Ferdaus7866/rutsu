@@ -391,8 +391,8 @@
     font-size: 48px;
     font-weight: 600;
     color: var(--theme);
-    width: 70%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
 }
 
 .icon-sec-title span {
